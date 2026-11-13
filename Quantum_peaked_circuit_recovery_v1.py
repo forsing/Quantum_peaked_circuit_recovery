@@ -15,9 +15,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -262,17 +262,17 @@ Metoda: Quantum Peaked-Circuit Recovery R+P (1x6 qubita, 7 amplitudnih vrhova)
 CSV: loto7_4718_k90.csv
 Validacija NLL (reg=0.01): 27.2651
 Test NLL: 27.4005
-NEXT: [3, 5, 6, 10, 11, 25, 27]
+NEXT: [3, x, 6, y, 11, z, 27]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (reg=0.05): 27.0949
 Test NLL: 27.2364
-NEXT: [2, 3, 5, 6, 7, 15, 19]
+NEXT: [2, x, 5, y, 7, z, 19]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (reg=0.15): 27.2879
 Test NLL: 27.4219
-NEXT: [1, 2, 6, 7, 10, 11, 26]
+NEXT: [1, x, 6, y, 10, z, 26]
 """
 
 
